@@ -79,7 +79,9 @@ function LineGraph() {
     }, []);
 
     return (
-        <div>
+        <div className="lineGraph">
+            <h3>Worldwide new cases</h3>
+            <br />
             {data?.length > 0 && (
             <Line 
             options = {options}

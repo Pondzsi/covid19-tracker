@@ -33,3 +33,7 @@ body {
     flex-direction: column;
   }
 }
+
+.lineGraph {
+  margin-top: 20px;
+}
